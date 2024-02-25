@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-swipper{
+    height: 100vh;
+}
+.btn-clr a{
+    text-decoration: none;
+    color: #fff;
+}
+.missions>div{
+    height: 100vh;
+}
+.missions .mission-1{
+    background-image: url("image/mission1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+.missions .mission-2{
+    background-image: url("image/w22.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+}
+.missions .mission-3{
+    background-image: url("image/mission2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.shop img{
+    width: 280px;
+    height: 290px;
+    object-fit: contain;
+}
+.btn:hover{
+    background: #000!important;
+    border-color: #000!important;
+}
+.dc img{
+    transition: 0.5s ease;
+}
+.dc:hover img{
+    filter: brightness(0.5);
+}
+.footer-btn{
+    height: 100vh;
+    background-image: url("image/misson3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
